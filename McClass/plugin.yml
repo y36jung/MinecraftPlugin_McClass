@@ -1,0 +1,18 @@
+main: me.midmad1.mcClass.Main
+name: McClass
+version: 1.0
+author: midmad1
+api-version: 1.16
+commands:
+   mcclass:
+      description: Opens GUI to inherit a class.
+      usage: /mcclass
+   mcclass stats:
+      description: Shows the stats of player.
+      usage: /mcclass stats
+   mcclass gambler:
+      description: Inherits the Gambler class.
+      usage: /mcclass gambler
+   mcclass usepoints:
+      description: Opens GUI to use stat points.
+      usage: /mcclass usepoints
