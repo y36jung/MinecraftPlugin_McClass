@@ -111,10 +111,19 @@ public class GourmetAbility implements Listener {
 				
 			} else if (goodFoods.contains(food)) {
 				if (food.equals(Material.COOKED_MUTTON)) {
-					
+					if () {
+						player.addPotionEffectType(PotionEffectType.BAD_OMEN.createEffect(6000, 0));
+						player.addPotionEffectType(PotionEffectType.DAMAGE_RESISTANCE.createEffect(6000, 3));
+						player.addPotionEffectType(PotionEffectType.FIRE_RESISTANCE.createEffect(6000, 0));
+						player.addPotionEffectType(PotionEffectType.GLOWING.createEffect(6000, 0));
+						player.addPotionEffectType(PotionEffectType.HEALTH_BOOST.createEffect(6000, 10));
+						player.addPotionEffectType(PotionEffectType.INCREASE_DAMAGE.createEffect(6000, 3));
+					}
 				}
 				if (food.equals(Material.COOKED_PORKCHOP)) {
-					player.addPotionEffect(PotionEffectType
+					player.addPotionEffect(PotionEffectType.DAMAGE_RESISTANCE.createEffect(600, 2));
+					player.addPotionEffect(PotionEffectType.ABSORPTION.createEffect(600, 6));
+					player.addPotionEffect(PotionEffectType.SLOW.createEffect(600, 1));
 				}
 				if (food.equals(Material.COOKED_SALMON)) {
 					player.addPotionEffect(PotionEffectType.WATER_BREATHING.createEffect(600, 0));
